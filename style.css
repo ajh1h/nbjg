@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background: #1c1c1c;
+  color: #e6e6e6;
+  font-family: 'Defafont';
+  overflow-x: hidden;
+}
+
+a:hover {
+transform: scale(1.2);
+color: #b397ce;
+}
+
+a:hover span {
+transform: scale(1);
+}
+
+.nou {
+color: inherit;
+text-decoration: underline;
+}
+
+a {
+text-decoration: none; 
+color: inherit;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0px;
+  width: 100%;
+  background: #8052ad;
+  color: #e6e6e6;
+  padding: 0px;
+  font-family: 'Defafont';
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255,);
+  border: none;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 24px;
+  font-family: 'Defafont';
+  transition: transform .2s
+}
+
+.athing {
+  padding: 10px;
+  font-family: 'Defafont';
+  font-size: 20px;
+}
+
+.pd {
+padding: 10px;
+}
+
+.header {
+font-size:48px;
+color:#8052ad; 
+font-weight: normal;
+}
+
+.othertext {
+font-size:24px;
+color:#8052ad; 
+font-weight:normal;
+}
+
+.smol {
+font-size:14px;
+color:#8052ad; 
+font-weight:normal;
+}
+
+.shiftright {
+position: relative;
+left: 200px;
+font-size:24px;
+color:#8052ad; 
+font-weight:normal;
+}
+
+.shiftrightlittle {
+position: relative;
+left: 100px;
+font-size:24px;
+color:#8052ad; 
+font-weight:normal;
+}
+
+@font-face {
+    font-family: 'Defafont';
+    src: url(fontadoodle.otf);
+}
